@@ -1,0 +1,33 @@
+html {
+  line-height: 1.4;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 1em auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: square;
+}
+
+code {
+  white-space: pre;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  background: #f0f0f0;
+}
