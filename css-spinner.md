@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang='ru'>
 <head>
-<meta charset='utf-8'>
-<meta content='width=device-width, initial-scale=1.0' name='viewport'>
-<title>Индикатор загрузки на базе CSS анимации</title>
-<link href='data:,' rel='icon'>
-<link rel="stylesheet" type="text/css" href="base.css">
-<style>
-  .spinner1 {
-    margin: 1em auto;
-    width: 40px;
-    height: 40px;
-    border-radius: 40px; /* Сделаем элемент круглым */
-    border: solid 5px #ddd;
-    border-left: solid 5px #999; /* Одна из границ должна отличаться по цвету */
-  }
-  @keyframes spin {
-    0% {
-      transform: rotate(0);
+  <meta charset='utf-8'>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+  <title>Индикатор загрузки на базе CSS анимации</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+    .spinner1 {
+      margin: 1em auto;
+      width: 40px;
+      height: 40px;
+      border-radius: 40px; /* Сделаем элемент круглым */
+      border: solid 5px #ddd;
+      border-left: solid 5px #999; /* Одна из границ должна отличаться по цвету */
     }
-    100% {
-      transform: rotate(360deg);
+    @keyframes spin {
+      0% {
+        transform: rotate(0);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
     }
-  }
-  .spinner2 {
-    animation-name: spin; /* Применяем анимацию вращения */
-    animation-duration: 1s;
-    animation-iteration-count: infinite; /* Если не указать, то сделает только одно вращение */
-    animation-timing-function: linear; /* Для того, чтобы вращение было равномерным */
-  }
-</style>
+    .spinner2 {
+      animation-name: spin; /* Применяем анимацию вращения */
+      animation-duration: 1s;
+      animation-iteration-count: infinite; /* Если не указать, то сделает только одно вращение */
+      animation-timing-function: linear; /* Для того, чтобы вращение было равномерным */
+    }
+  </style>
+</head>
 
 # Индикатор загрузки на базе CSS анимации
 

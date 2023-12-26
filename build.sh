@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for f in $(ls *.md)
+for f in "$@"
 do
   cmark-gfm --unsafe $f > "${f%.md}.html"
   echo "$f processed"

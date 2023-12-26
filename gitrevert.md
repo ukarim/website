@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang='ru'>
 <head>
-<meta charset='utf-8'>
-<meta content='width=device-width, initial-scale=1.0' name='viewport'>
-<title>Как откатить коммит в Git</title>
-<link href='data:,' rel='icon'>
-<link rel="stylesheet" type="text/css" href="base.css">
+  <meta charset='utf-8'>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+  <title>Как откатить коммит в Git</title>
+  <link rel="stylesheet" href="base.css">
+</head>
 
 # Как откатить коммит в Git
 

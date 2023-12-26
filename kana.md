@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang='en'>
-<meta charset='utf-8'>
-<meta content='width=device-width, initial-scale=1.0' name='viewport'>
-<title>Hiragana/katakana quiz</title>
-<link href='data:,' rel='icon'>
-<link rel="stylesheet" type="text/css" href="base.css">
-<style>
-#quiz {
-  text-align: center;
-}
-.btn {
-  display: block;
-  max-width: 200px;
-  background: #ddd;
-  border: solid 2px #ddd;
-  margin: 1em auto;
-  cursor: pointer;
-  border-radius: 0.2em;
-  padding: 0.2em;
-  user-select: none;
-}
-.msg {
-  font-size: 5em;
-}
-.blue {
-  background: #0095f6!important;
-  border: solid 1px #0095f6!important;
-  color: #fff;
-}
-.wrong {
-  border: solid 2px #db4e3f!important;
-}
-.small {
-  font-size: 0.8em;
-}
-</style>
+<head>
+  <meta charset='utf-8'>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+  <title>Hiragana/katakana quiz</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+  #quiz {
+    text-align: center;
+  }
+  .btn {
+    display: block;
+    max-width: 200px;
+    background: #ddd;
+    border: solid 2px #ddd;
+    margin: 1em auto;
+    cursor: pointer;
+    border-radius: 0.2em;
+    padding: 0.2em;
+    user-select: none;
+  }
+  .msg {
+    font-size: 5em;
+  }
+  .blue {
+    background: #0095f6!important;
+    border: solid 1px #0095f6!important;
+    color: #fff;
+  }
+  .wrong {
+    border: solid 2px #db4e3f!important;
+  }
+  .small {
+    font-size: 0.8em;
+  }
+  </style>
+</head>
 
 # Hiragana/katakana quiz
 

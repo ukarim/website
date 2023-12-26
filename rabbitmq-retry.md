@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang='en'>
-<meta charset='utf-8'>
-<meta content='width=device-width, initial-scale=1.0' name='viewport'>
-<title>Delayed retry RabbitMQ</title>
-<link href='data:,' rel='icon'>
-<link rel="stylesheet" type="text/css" href="base.css">
+<head>
+  <meta charset='utf-8'>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+  <title>Delayed retry RabbitMQ</title>
+  <link rel="stylesheet" href="base.css">
+</head>
 
 # Delayed retry with RabbitMQ
 
