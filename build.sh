@@ -2,7 +2,7 @@
 
 for f in "$@"
 do
-  cmark-gfm --unsafe $f > "${f%.md}.html"
+  cmark-gfm -e table --unsafe $f > "${f%.md}.html"
   echo "$f processed"
 done
 

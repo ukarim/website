@@ -14,6 +14,7 @@ Here you can find links to my projects, writings, tutorials and etc.
 
 ## Pages
 
+- [Компилируем класс вручную](classfile.html)
 - [Как откатить коммит в Git](gitrevert.html)
 - [Hiragana/katakana quiz](kana.html)
 - [Индикатор загрузки на базе CSS анимации](css-spinner.html)
